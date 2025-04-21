@@ -6,11 +6,10 @@ import Image from "next/image";
 export default function About() {
   return (
     <section id="about" className="relative py-20 bg-white dark:bg-black">
-      <div className="absolute bottom-0 right-0 w-full h-96 bg-gradient-to-t from-purple-100/20 dark:from-purple-900/20 via-transparent to-transparent" />
+      <div className="absolute bottom-0 right-0 w-full h-96 bg-gradient-to-t from-blue-100/20 dark:from-blue-900/20 via-transparent to-transparent" />
       
       <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-start gap-16">
-          {/* Image Section */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -18,8 +17,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="lg:w-1/2"
           >
-            <div className="relative group">              
-              {/* Image Container */}
+            <div className="relative group">   
               <div className="relative rounded-lg overflow-hidden bg-white">
                 <Image
                   src="/Images/me.png"
@@ -32,7 +30,6 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Content Section */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
