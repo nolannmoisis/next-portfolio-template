@@ -11,7 +11,6 @@ export default function Navbar() {
   const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
-  const pathname = usePathname();
 
   const navLinks = [
     { href: "/", label: "Home" },
