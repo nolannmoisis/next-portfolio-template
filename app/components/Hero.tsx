@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -38,6 +39,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
+            <Link href="#projects" scroll={true}>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -61,7 +63,8 @@ export default function Hero() {
                   </svg>
                 </span>
               </motion.button>
-
+              </Link>
+              <Link href="#webprojects" scroll={true}>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -85,7 +88,8 @@ export default function Hero() {
                   </svg>
                 </span>
               </motion.button>
-
+              </Link>
+              <Link href="#contact" scroll={true}>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -108,6 +112,7 @@ export default function Hero() {
                   </svg>
                 </span>
               </motion.button>
+              </Link>
             </div>
 
             <motion.div

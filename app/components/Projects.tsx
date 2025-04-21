@@ -8,7 +8,7 @@ const projects = [
     title: "K3Web3D",
     description: "An Interactive 3D Keycube Visualization System using Three.js.\n Check the Wiki on GitHub for more details on how it works.",
     image: "/Images/keycube.jpg",
-    tags: ["Three.js", "Blender"],
+    tags: ["Three.js", "Blender", "JavaScript"],
     githubUrl: "https://github.com/keycube/k3web3d",
     color: "from-blue-500 to-cyan-500"
   },
@@ -26,7 +26,7 @@ const projects = [
     image: "/Images/pathfinding.jpg",
     tags: ["C", "SDL2", "Ant Colony Optimization", "Dijkstra"],
     githubUrl: "https://github.com/nolannmoisis/ProjetS4SDL2",
-    color: "from-blue-500 to-fuchsia-500"
+    color: "from-blue-500 to-purple-500"
   },
 ];
 
