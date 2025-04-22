@@ -47,6 +47,14 @@ const webprojects = [
     demoUrl: "https://fastapi-nolannmoisis-projects.vercel.app",
     githubUrl: "https://github.com/nolannmoisis/FARM",
     color: "from-blue-500 to-red-500"
+  },
+  {
+    title: "GDP App (no demo available)",
+    description: "A project management app, used to learn more about docker, Synfony and php.\n Needs to be updated (not totally finished).",
+    image: "/Images/gdp.jpg",
+    tags: ["PHP", "Symfony", "Docker"],
+    githubUrl: "https://github.com/nolannmoisis/TP6-appgdp",
+    color: "from-blue-500 to-orange-500"
   }
 ];
 
