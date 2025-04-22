@@ -38,6 +38,15 @@ const webprojects = [
     demoUrl: "https://nolannmoisis.github.io/portfolio.github.io/",
     githubUrl: "https://github.com/nolannmoisis/portfolio.github.io",
     color: "from-blue-500 to-fuchsia-500"
+  },
+  {
+    title: "Fast API",
+    description: "A farm stack app, used to learn fastapi.\n It uses a MongoDB database and docker.",
+    image: "/Images/fastapi.jpg",
+    tags: ["FastAPI", "MongoDB", "Docker"],
+    demoUrl: "https://fastapi-nolannmoisis-projects.vercel.app",
+    githubUrl: "https://github.com/nolannmoisis/FARM",
+    color: "from-blue-500 to-red-500"
   }
 ];
 
