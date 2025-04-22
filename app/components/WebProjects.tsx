@@ -50,7 +50,7 @@ const webprojects = [
   },
   {
     title: "GDP App (no demo available)",
-    description: "A project management app, used to learn more about docker, Synfony and php.\n Needs to be updated (not totally finished).",
+    description: "A project management app, used to learn more about docker and Synfony.\n Needs to be updated (not totally finished).",
     image: "/Images/gdp.jpg",
     tags: ["PHP", "Symfony", "Docker"],
     githubUrl: "https://github.com/nolannmoisis/TP6-appgdp",
