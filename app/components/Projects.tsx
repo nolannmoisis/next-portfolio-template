@@ -28,6 +28,14 @@ const projects = [
     githubUrl: "https://github.com/nolannmoisis/ProjetS4SDL2",
     color: "from-blue-500 to-purple-500"
   },
+  {
+    title: "PST-Modern-Cryptography",
+    description: "Our C implementation of cryptographic algorithms.\n It includes AES, Toycypher and mini-AES.",
+    image: "/Images/pst.jpg",
+    tags: ["AES", "Cryptography", "Toycypher", "Research paper study"],
+    githubUrl: "https://github.com/PST-Modern-Cryptography",
+    color: "from-blue-500 to-fuchsia-500"
+  },
 ];
 
 export default function Projects() {
